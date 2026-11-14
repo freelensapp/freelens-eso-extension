@@ -1,0 +1,51 @@
+.page {
+  :global(.TableCell) {
+    &.storeType {
+      flex-grow: 0.4;
+    }
+
+    &.store {
+      flex-grow: 0.5;
+    }
+
+    &.stores {
+      flex-grow: 0.9;
+    }
+
+    &.secret {
+      flex-grow: 0.6;
+    }
+
+    &.provider {
+      flex-grow: 0.5;
+    }
+
+    &.refreshInterval {
+      flex-grow: 0.5;
+    }
+
+    &.namespaces {
+      flex-grow: 0.4;
+    }
+
+    &.status {
+      flex-grow: 0.7;
+    }
+
+    &.capabilities {
+      flex-grow: 0.4;
+    }
+
+    &.ready {
+      flex-grow: 0.3;
+    }
+
+    &.lastSync {
+      flex-grow: 0.9;
+    }
+
+    &.age {
+      flex-grow: 0.3;
+    }
+  }
+}
