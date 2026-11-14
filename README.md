@@ -25,6 +25,8 @@ what the details of Freelens leave out, the details of a Secret that ESO
 manages link back to its ExternalSecret, and the menu of an ExternalSecret or a
 ClusterExternalSecret forces a sync.
 
+[Video Demo](https://github.com/user-attachments/assets/5e46338e-94e6-4aeb-93d0-cb4f30148066)
+
 ![The External Secrets of a cluster, with their store, refresh interval, sync status and last sync, one of them failing, dark theme](assets/screenshots/external-secrets.png)
 
 ![The menu of an ExternalSecret, with Force Sync next to the items of Freelens, dark theme](assets/screenshots/external-secret-menu.png)
