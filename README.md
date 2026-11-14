@@ -25,6 +25,12 @@ what the details of Freelens leave out, the details of a Secret that ESO
 manages link back to its ExternalSecret, and the menu of an ExternalSecret or a
 ClusterExternalSecret forces a sync.
 
+![The External Secrets of a cluster, with their store, refresh interval, sync status and last sync, one of them failing, dark theme](assets/screenshots/external-secrets.png)
+
+![The menu of an ExternalSecret, with Force Sync next to the items of Freelens, dark theme](assets/screenshots/external-secret-menu.png)
+
+![The details of an ExternalSecret: its target Secret and its store as links, its policies and its data, dark theme](assets/screenshots/external-secret-details.png)
+
 ## Authors
 
 - [Nídio Dolfini](https://github.com/nidiodolfini) created this extension,
@@ -191,8 +197,8 @@ PushSecret take no such action, so they have no menu item.
 
 ## Limits
 
-- **Five kinds.** The generators of `generators.external-secrets.io` have no
-  page.
+- **Five kinds.** The ClusterPushSecret of `external-secrets.io/v1alpha1` and
+  the generators of `generators.external-secrets.io` have no page.
 - **No forms.** The extension creates no object and edits no field besides the
   force-sync annotation; the editor of Freelens, or `kubectl`, does the rest.
 - **One API version per kind.** The extension reads `v1` where the cluster
