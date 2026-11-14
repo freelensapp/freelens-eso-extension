@@ -9,7 +9,7 @@ export default defineConfig({
     environment: "node",
     include: ["integration/__tests__/**/*.tests.ts"],
     // One app, one session at a time: the sessions install the extension and
-    // change the CRDs on one cluster.
+    // change the CRD on one cluster.
     fileParallelism: false,
     testTimeout: 120_000,
     hookTimeout: 120_000,

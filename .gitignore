@@ -24,16 +24,6 @@
 /coverage/
 /node_modules/
 
-# Local package-manager caches (kept inside the workspace for sandboxed installs)
-/.pnpm-store/
-/.pnpm-cache/
-/.pnpm-state/
-/.npm-cache/
-/.localappdata/
-
-# Local tooling vendored into the workspace (harness pnpm shim, etc.)
-/.tools/
-
 # Scratch space of the CI agent, which checks out Freelens at tmp/freelens.
 /tmp/
 

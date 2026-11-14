@@ -1,8 +1,6 @@
 allowBuilds:
   '@parcel/watcher': true
-  # electron is a devDependency for its types only; its install script would
-  # download the Electron binary, which nothing here runs.
-  electron: false
+  electron: true
   esbuild: false
 
 engineStrict: true
